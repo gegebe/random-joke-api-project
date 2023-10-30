@@ -16,7 +16,7 @@ async function getRandomJoke(){
 
 button.addEventListener("click", getRandomJoke);
 
-// button.addEventListener("click", function(datos){
-//   let badJoke = datos;
-//   jokeDIV.textContent = getRandomJoke();
+
+// button.addEventListener("click", async function(){
+//   jokeDIV.textContent = await getRandomJoke();
 // });
