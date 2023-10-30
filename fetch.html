@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+  <script>
+
+    async function getRandomJoke(){
+      const respuesta = await fetch("https://api.chucknorris.io/jokes/random");
+      console.log("Chiste random: " + respuesta);
+
+      datos = await respuesta.json();
+      console.log(datos);
+    }
+
+    getRandomJoke();
+    
+  </script>
+
+</body>
+</html>

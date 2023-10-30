@@ -9,7 +9,7 @@ button.addEventListener('click', function(){
 
 function getRandomJoke(){
     const url = 'https://api.chucknorris.io/jokes/random'
- 
+
     fetch(url).
     then(response => response.json()).
     then(data => updateDOM(data)).

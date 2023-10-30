@@ -14,9 +14,14 @@ lado cliente al servidor.
 
 1. Preguntas de autoevaluación:
    1. ¿Cuál es la URL exacta que me permite obtener un chiste?
+   https://api.chucknorris.io/jokes/random
    2. ¿Qué tipo de petición HTTP debemos realizar para obtener la información? ¿GET o POST?
+   GET
    3. ¿Que tipo de dato JavaScript devuelve la respuesta de la API?
+   - JSON
+   - Objeto
    4. ¿Cuál es la propiedad de este objeto que contiene el texto del chiste?
+   "value"
 2. Implementa el mismo comportamiento de la demo, tal que cada vez que hagas clic en el botón __Get Joke!__ recupere un chiste aleatorio de la API https://api.chucknorris.io/jokes/random y lo muestre en el elemento del DOM adecuado
 
 ## Bonus
